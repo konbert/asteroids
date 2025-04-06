@@ -1,4 +1,4 @@
-from circleshape import *                                                       
+from circleshape import CircleShape
 from constants import *
 
 white = (255, 255, 255)
@@ -13,4 +13,4 @@ class Shot(CircleShape):
 
     def update(self, dt):
         self.position += self.velocity * dt
-        
+
